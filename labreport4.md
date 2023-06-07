@@ -13,6 +13,7 @@ scp <right click> <enter>
 ![](login.png)
 ## Clone your fork of the repository from your Github account
 ### Cloning Pt1.
+The following commands are supposed to allow you to log into ieng6 without entering your password in every time.
 ```
 Keys Pressed: 
 ssh-keygen <enter><enter><enter><enter>
@@ -24,6 +25,7 @@ ssh -T git@github.com <enter> (to check authentication)
 ```
 ![](clone1.png)
 ### Cloning Pt2.
+The following commands are supposed to clone.
 ```
 Keys Pressed: 
 git clone <ctrl+v> git@github.com:amberouyangg/lab7.git <enter>
