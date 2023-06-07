@@ -13,7 +13,7 @@ scp <right click> <enter>
 ![](login.png)
 ## Clone your fork of the repository from your Github account
 ### Cloning Pt1.
-The following commands are supposed to allow you to log into ieng6 without entering your password in every time.
+The following commands are supposed create a private SSH key file in ieng6. It's a new private key just for accessing Github from your course-specific account.
 ```
 Keys Pressed: 
 ssh-keygen <enter><enter><enter><enter>
@@ -25,7 +25,7 @@ ssh -T git@github.com <enter> (to check authentication)
 ```
 ![](clone1.png)
 ### Cloning Pt2.
-The following commands are supposed to clone.
+The following commands are supposed to clone the fork of the repository from the Github account. We use the SHH key instead of the HTTP link because we created a SSH key used for accessing Github from my course-specific account.
 ```
 Keys Pressed: 
 git clone <ctrl+v> git@github.com:amberouyangg/lab7.git <enter>
@@ -43,7 +43,7 @@ bash test.sh <enter>
 ## Edit the code file to fix the failing test
 ```
 Keys Pressed: 
-On line 44 and <right> until after index1.
+Go to line 44 and click after index1.
 <backspace> 2
 ```
 ![](fixx.png)
