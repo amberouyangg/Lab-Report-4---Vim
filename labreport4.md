@@ -43,21 +43,26 @@ bash test.sh <enter>
 ## Edit the code file to fix the failing test
 ```
 Keys Pressed: 
-Go to line 44 and click after index1.
+vim ListExamples.java <enter>
+<i> for insert mode
+<down> all the way to the index2 at 5th line from backwards up and <right> until after index1.
 <backspace> 2
+esc 
+:wq <enter>
 ```
-![](fixx.png)
+![](fixxx.png)
 ## Run the tests, demonstrating that they now succeed
 ```
 Keys Pressed: 
 bash test.sh <enter>
 ```
+![](passish.png)
 
 ## Commit and push the resulting change to your Github account
 ```
 Keys Pressed: 
-Commit to main <click>
-Push to origin <click>
+git add . <enter>
+git commit -m "fixed" <enter>
+git push origin master <enter>
 ```
-![](commit.png)
-![](push.png)
+![](pushncommit.png)
